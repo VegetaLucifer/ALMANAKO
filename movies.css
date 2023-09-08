@@ -1,0 +1,59 @@
+
+html {
+    color:yellow;
+    background-color: rgba(76, 0, 252, 0.356);
+}
+
+p{
+  color:aquamarine;
+  
+}
+
+
+h1 {
+    color:papayawhip
+}
+
+h3{
+    color:red;
+}
+
+#T2,#ST{
+    float: left; /*με το float, τα επομενα στοιχεια τυλιγονται στην εικονα*/
+}
+
+li{
+    clear: left; /*το στοιχειο που θελουμε να μην τυλιγεται στην εικονα*/
+    clear: right;
+    clear: both;    /*κ για δεξια κ αριστερα*/
+}
+
+#homePage{
+    margin-left: 85px;
+}
+
+
+h3[draggable="true"]{   /*selector, βαζει χρωμα οπου υπαρχει το ορισμα draggable και ειναι true*/
+    color:crimson
+}
+
+
+#afieroma2ID {          /*selector για ID*/
+    color:peachpuff
+}
+
+*{                      /*selector για ολα*/
+    color:white;
+    font-family:cursive ;
+    
+}
+
+
+
+
+
+
+
+
+
+

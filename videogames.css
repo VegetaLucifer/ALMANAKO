@@ -1,0 +1,18 @@
+html {
+color: rgb(255, 255, 255);
+}
+
+*{                      /*selector για ολα*/
+    font-family:cursive ;
+    
+  }
+
+  img{                      
+   border: 1px solid crimson ; /*πλαισιο*/
+   border-width: 2px 2px 2px 2px;
+   padding: 5px 5px 5px 5px;
+   margin: 2px;
+   background-color: gold;
+  }
+
+

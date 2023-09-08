@@ -1,0 +1,120 @@
+
+body{                      /*selector για ολα*/
+  font-family: "Metal Mania", cursive;
+  background-color:beige
+  }
+
+  h1, h2{
+    color:red;
+    text-align: center;
+    display: inline;    /*με το inline δεν αλλαζει γραμμη, ουτε block*/
+  }
+
+  h1[id="pop"],h2[id="pop"]{
+    font-family: sans-serif;
+    color:hotpink;
+  }
+
+  h1{
+    margin-left: 39%;
+  }
+
+  .HMgrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto) ; /*repeat το auto-size για 2*/
+    grid-template-rows: 80px minmax(80px,120px);
+    margin-bottom: 50px;
+  }
+
+ .band{          /*αρχικη κλαση με γενικα χαρακτηριστικα*/
+  font-size:xx-large
+  }
+
+  .JP{            /*υποκλαση με ειδικα χαρακτηριστικα*/
+    color:red;
+    float:left;
+  }
+  .SA{            /*υποκλαση με ειδικα χαρακτηριστικα*/
+    color:blueviolet;
+    float:left;
+  }
+
+  .RW{                /*υποκλαση με ειδικα χαρακτηριστικα*/
+    color:crimson;
+    float:right;
+  }
+
+  .AC{                /*υποκλαση με ειδικα χαρακτηριστικα*/
+    color:blueviolet;
+    float:right;
+  }
+
+  a[id="home"]{
+    text-align: center;
+  }
+
+
+  div[id="1"] {
+    border: 2px solid aquamarine;
+    float:left;
+    background-color: pink;
+  }
+
+  div[id="2"] {
+    border: 2px solid aqua;
+    float:right;
+    background-color: purple;
+  }
+
+.popArtists{
+  /*display: flex; /* /*εμφανιση flexbox*/
+  display: inline-flex;   /*οσο χωρο χρειαζεται το μεγαλυτερο*/
+  /*flex-direction: column; /*εμφανιση στηλες αντι για σειρες*/
+  flex-wrap: wrap; /*οσα δεν χωρανε, εμφανιζονται απο κατω αντι να εξαφανιζονται*/
+  margin-top: 2px;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.popArtists > div {       /*ολα τα παιδια του popArtists με ονομα div*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1%;
+}
+
+.MJ{
+  background-color:coral;
+  width: 32%;
+  /*flex-basis: 100px;*/ /*δινουμε πλατος, εχει προτεραιοτητα εναντι της παραπανω εντολης width*/  
+
+}
+
+.M{
+  background-color:aqua;
+  width: 32%;
+}
+
+.P{
+  background-color:violet;
+  width: 32%;
+}
+
+
+.youTubeLinks{
+  color:red;
+}
+
+  footer {
+    margin-left: 43%;
+    clear:both
+  }
+
+
+
+
+ 
+
+
+

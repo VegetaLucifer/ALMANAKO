@@ -1,0 +1,52 @@
+html {
+    background-color:beige;
+}
+
+h1 {
+    color:crimson
+}
+
+h2 {
+    color:coral
+}
+
+h3 {
+    color:violet
+}
+
+h4 {
+    color:goldenrod;
+    font-size: 18px;
+}
+
+
+.roz-xroma {                /*selector για class*/
+    color:pink
+}
+
+.korali-xroma {             /*selector για class*/
+    color:coral
+}
+
+.mple-xroma {               /*selector για class*/
+    color:dodgerblue
+}
+
+.prasino-xroma {            /*selector για class*/
+    color:lightseagreen
+}
+
+li {             
+    font-size: 17px;
+    text-align: center;
+    list-style-position: inside;
+  }
+  
+
+  *{                      /*selector για ολα*/
+    text-align: center;
+    font-family:cursive ;
+  }
+
+
+
