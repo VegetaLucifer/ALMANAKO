@@ -2,20 +2,76 @@
 
 <html lang="en">
   <head>
+    <!--Bootstrap link (μεσα στο head)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALMANAKO.com/movies</title>
     <!--External CSS-->
     <link rel="stylesheet" href="./movies.css" />
   </head>
-  <body>
-    <h1>Αφιερωμα 1 : Οι Καλυτερες ταινιες ολων των εποχων</h1>
 
-    <!--CSS id-->
-    <h1 id="afieroma2ID">Αφιερωμα 2 : Oι Καλυτερες σειρες ολων των εποχων</h1>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/didot-2');
+  </style>
+
+  <body class="gradient-background">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Περιεχόμενα/Στήλες</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./movies.html">Cinema</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./videogames.html">Videogames</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./music.html">Music</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+
+    <h1>Οι Καλυτερες ταινιες ολων των εποχων</h1>
+
+
 
     <hr />
-    <ol type="I">
+    <!--μεσα σε container για να κεντραρει ωραια-->
+    <div class="container">
       <h2><li>Τop movies (σε τυχαια σειρα)</li></h2>
       <ul>
         <li>
@@ -50,9 +106,7 @@
         </p>
         <a href="https://www.imdb.com/title/tt0103064/">IMDB link</a>
         <br />
-        <br />
-        <br />
-        <br />
+
         <li><h3>O Roz Gatos</h3></li>
         <img
           src="https://gcdnb.pbrd.co/images/Du9zjgR63zfz.jpg?o=1/100"
@@ -71,57 +125,92 @@
           >IMDB link</a
         >
       </ul>
-      <br />
+    </div>
+      <br /> 
+  
       <h2><li>Τop series (σε τυχαια σειρα)</li></h2>
-      <ul>
-        <li>
-          <h3>Stranger Things</h3>
-        </li>
-        <img
-          id="ST"
-          src="https://secretatlanta.co/wp-content/uploads/2022/09/rsz_stranger_things_mall_scene.jpg"
-          width="385"
-        />
-        <p>
-          Η πιο πιστη αποδοση των 80s. Απλό αλλά τόσο “γεμάτο”. Ένα love letter
-          σε αυτήν τη δεκαετία, από ανθρώπους που προφανώς έχουν πολύ καλή γνώση
-          και αντίληψη της εποχής εκείνης. Εποχής ναι. <br />
-          Μπορεί να απέχει μόνο 30+ χρόνια πίσω αλλά οι διαφορές είναι τόσες
-          πολλές που εγώ τουλάχιστον τη χαρακτηρίζω άλλη εποχή. <br />
-          Το Stranger Things ακολουθεί την ιστορία ενός μικρού αγοριού στο
-          Hawkins της Indiana μετά την εξαφάνιση του οποίου, η μητέρα του, ο
-          τοπικός αστυνομικός και τα φιλαράκια του μικρού, θα έρθουν αντιμέτωποι
-          με τρομερές και σκοτεινές δυνάμεις, στην προσπάθειά τους να τον
-          εντοπίσουv.
-        </p>
-        <a href="https://www.imdb.com/title/tt4574334/">IMDB link</a>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <li><h3>Miami Vice</h3></li>
-        <img
-          src="https://i.pinimg.com/originals/e6/ce/de/e6cede70c55a2cf4e07c94ae804abe2e.jpg"
-          width="385"
-        />
-        <p>The most iconic setting/atmosphere ever.</p>
-        <a href="https://www.imdb.com/title/tt0086759/?ref_=fn_al_tt_1"
-          >IMDB link</a
-        >
-        <br />
-        <br />
-        <p />
-      </ul>
-    </ol>
-    <footer>
-      <br />
-      <hr/ >
-      <a id="home" href="./index.html"
-        ><img src="./Images/HomePage.jpg" height="185"
-      /></a>
-    </footer>
+
+<!--ετοιμο κομματι απο bootstrap, examples/features, Columns with icons -->
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Columns with icons</h2>
+        <!--CSS id-->
+    <h1>Oι Καλυτερες σειρες ολων των εποχων</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <!--<div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            </div>-->
+            <img
+            id="ST"
+            src="https://secretatlanta.co/wp-content/uploads/2022/09/rsz_stranger_things_mall_scene.jpg"
+            width="385"
+          />
+            <h3 class="fs-2 text-body-emphasis">Stranger Things</h3>
+            <p>Η πιο πιστη αποδοση των 80s. Απλό αλλά τόσο “γεμάτο”. Ένα love letter
+              σε αυτήν τη δεκαετία, από ανθρώπους που προφανώς έχουν πολύ καλή γνώση
+              και αντίληψη της εποχής εκείνης. Εποχής ναι. <br />
+              Μπορεί να απέχει μόνο 30+ χρόνια πίσω αλλά οι διαφορές είναι τόσες
+              πολλές που εγώ τουλάχιστον τη χαρακτηρίζω άλλη εποχή. <br />
+              Το Stranger Things ακολουθεί την ιστορία ενός μικρού αγοριού στο
+              Hawkins της Indiana μετά την εξαφάνιση του οποίου, η μητέρα του, ο
+              τοπικός αστυνομικός και τα φιλαράκια του μικρού, θα έρθουν αντιμέτωποι
+              με τρομερές και σκοτεινές δυνάμεις, στην προσπάθειά τους να τον
+              εντοπίσουv.</p></p> 
+            <a href="https://www.imdb.com/title/tt4574334/" class="icon-link">
+              Συνδεσμος για IMDB
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+  
+          <div class="feature col">
+            <!--<div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            </div>-->
+            <img
+            id="ST"
+            src="https://i.pinimg.com/originals/e6/ce/de/e6cede70c55a2cf4e07c94ae804abe2e.jpg"
+            width="385"
+          />
+            <h3 class="fs-2 text-body-emphasis">Miami Vice</h3>
+            <p>Miami Vice is an American crime drama television series created by Anthony Yerkovich and produced by Michael Mann for NBC.[1] The series stars Don Johnson as James "Sonny" Crockett and Philip Michael Thomas as Ricardo "Rico" Tubbs, two Metro-Dade Police Department detectives working undercover in Miami. The series ran for five seasons on NBC from 1984 to 1989. The USA Network began airing reruns in 1988 and broadcast a previously unaired episode during its syndication run of the series on January 25, 1990.
+  
+              Unlike standard police procedurals, the show drew heavily upon 1980s New Wave culture and is noted for its integration of contemporary pop and rock music and stylish or stylized visuals. People magazine states that Miami Vice was the "first show to look really new and different since color TV was invented</p> 
+            <a href="https://www.imdb.com/title/tt0086759/?ref_=fn_al_tt_1" class="icon-link">
+              Συνδεσμος για IMDB
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+          
+    <!--μεσα σε container για να κεντραρει ωραια-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./movies.html">Cinema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./videogames.html">Videogames</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./music.html">Music</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 ALMANAKO Magazine, All rights reserved</p>
+      </footer>
+    </div>
+
+    <!--Bootstrap functionality (ακριβως πριν κλεισει το body)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

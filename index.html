@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-bs-theme="dark"> <!--εντολη για dark theme-->
   <head>
+    <!--Bootstrap link (μεσα στο head)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALMANAKO.com</title>
     <!--External CSS-->
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/didot-2');
+  </style>
+
+  <body >
     <!--Inline CSS-->
     <h1 style="color: red">ΠΕΡΙΟΔΙΚΟ ΑΛΜΑΝΑΚΟ (Digital Edition)</h1>
     <br />
@@ -17,29 +29,126 @@
     <h2 class="roz-xroma">ΝΒΑ, videogames, ταινιες, σειρες, comics</h2>
     <!--CSS class-->
     <br />
-    <h3>HOME PAGE</h3>
-    <img
-      src="https://menshouse.gr/media/2018/01/ALMANAKO1-700x473.jpg"
-      width="100%"
-    />
-    <h4>Περιεχόμενα/Στήλες (Links σε αλλα HTML αρχεια)</h4>
-    <ol start="1" , type="I">
-      <li>
-        <a class="prasino-xroma" href="./movies.html"
-          >Oι Καλυτερες Ταινιες κ Σειρες</a
-        >
-      </li>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Περιεχόμενα/Στήλες</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./movies.html">Cinema</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./videogames.html">Videogames</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./music.html">Music</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>-->
+        </div>
+      </div>
+    </nav>
+
+    <!--μεσα σε container για να κεντραρει ωραια-->
+    <div class="container">
+      <h3>HOME PAGE</h3>
+      <img
+        src="https://menshouse.gr/media/2018/01/ALMANAKO1-700x473.jpg"https://menshouse.gr/media/2018/01/ALMANAKO1-700x473.jpg
+        width="100%"
+      />
       <br />
-      <li>
-        <a class="mple-xroma" href="./videogames.html"
-          >Τα Καλύτερα sites για Videogames</a
-        >
-      </li>
       <br />
-      <li>
-        <a href="./music.html">Tα καλυτερα μουσικα albums</a>
-      </li>
-      <br />
-    </ol>
+      <div class="cardMenu">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/09/30/11/Back-to-the-future-2.jpg?width=1200"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cinema</h5>
+            <p class="card-text">Oι Καλυτερες Ταινιες κ Σειρες.</p>
+            <a class="prasino-xroma" href="./movies.html">Watch</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://neverendingrealm.com/wp-content/uploads/2019/02/final-fantasy-vii.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Videogames</h5>
+            <p class="card-text">Τα Καλύτερα sites για Videogames.</p>
+            <a class="mple-xroma" href="./videogames.html">Play</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://singersroom.com/wp-content/uploads/2023/05/10-Songs-of-Judas-Priest.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Music</h5>
+            <p class="card-text">Tα καλυτερα μουσικα albums.</p>
+            <a href="./music.html">Listen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--μεσα σε container για να κεντραρει ωραια-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./movies.html">Cinema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./videogames.html">Videogames</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./music.html">Music</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 ALMANAKO Magazine, All rights reserved</p>
+      </footer>
+    </div>
+
+    <!--Bootstrap functionality (ακριβως πριν κλεισει το body)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

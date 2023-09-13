@@ -1,5 +1,5 @@
 html {
-    background-color:beige;
+    background-color:red
 }
 
 h1 {
@@ -45,7 +45,21 @@ li {
 
   *{                      /*selector για ολα*/
     text-align: center;
-    font-family:cursive ;
+    font-family: 'Didot', sans-serif;
+    font-family: 'Didot Title', sans-serif;
+
+  }
+
+  .cardMenu{       /*πως κεντραρει ενα flexbox*/
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
   }
 
 

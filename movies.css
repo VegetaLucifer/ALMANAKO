@@ -44,9 +44,21 @@ h3[draggable="true"]{   /*selector, βαζει χρωμα οπου υπαρχε�
 
 *{                      /*selector για ολα*/
     color:white;
-    font-family:cursive ;
-    
+    font-family: 'Didot', sans-serif;
+    font-family: 'Didot Title', sans-serif;   
 }
+
+.col{
+        margin-left: 100px;
+        align-self: center;
+      }
+
+.gradient-background {
+        background: linear-gradient(300deg, #00bfff, #ff4c68, #7472ef);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+}
+     
 
 
 
