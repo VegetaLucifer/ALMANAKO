@@ -1,66 +1,88 @@
 html {
-    background-color:red
+  background-color: red;
 }
 
 h1 {
-    color:crimson
+  color: crimson;
 }
 
 h2 {
-    color:coral
+  color: coral;
 }
 
 h3 {
-    color:violet
+  color: violet;
 }
 
 h4 {
-    color:goldenrod;
-    font-size: 18px;
+  color: goldenrod;
+  font-size: 18px;
 }
 
-
-.roz-xroma {                /*selector για class*/
-    color:pink
+.roz-xroma {
+  /*selector για class*/
+  color: pink;
 }
 
-.korali-xroma {             /*selector για class*/
-    color:coral
+.korali-xroma {
+  /*selector για class*/
+  color: coral;
 }
 
-.mple-xroma {               /*selector για class*/
-    color:dodgerblue
+.mple-xroma {
+  /*selector για class*/
+  color: dodgerblue;
 }
 
-.prasino-xroma {            /*selector για class*/
-    color:lightseagreen
+.prasino-xroma {
+  /*selector για class*/
+  color: lightseagreen;
 }
 
-li {             
-    font-size: 17px;
-    text-align: center;
-    list-style-position: inside;
-  }
-  
+li {
+  font-size: 17px;
+  text-align: center;
+  list-style-position: inside;
+}
 
-  *{                      /*selector για ολα*/
-    text-align: center;
-    font-family: 'Didot', sans-serif;
-    font-family: 'Didot Title', sans-serif;
+* {
+  /*selector για ολα*/
+  text-align: center;
+  font-family: "Didot", sans-serif;
+  font-family: "Didot Title", sans-serif;
+}
 
-  }
+.cardMenu {
+  /*πως κεντραρει ενα flexbox*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .cardMenu{       /*πως κεντραρει ενα flexbox*/
-    display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
 
-  .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-
-
-
+.subscribeButton {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 18px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 15px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 10px 10px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}

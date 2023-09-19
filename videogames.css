@@ -1,25 +1,50 @@
 html {
-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
-*{                      /*selector για ολα*/
-  font-family: 'Didot', sans-serif;
-  font-family: 'Didot Title', sans-serif;
-  }
-
-  img{                      
-   border: 1px solid crimson ; /*πλαισιο*/
-   border-width: 2px 2px 2px 2px;
-   padding: 5px 5px 5px 5px;
-   margin: 2px;
-   background-color: gold;
-  }
-
-  .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #7472ef);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+* {
+  /*selector για ολα*/
+  font-family: "Didot", sans-serif;
+  font-family: "Didot Title", sans-serif;
 }
 
+img {
+  border: 1px solid crimson; /*πλαισιο*/
+  border-width: 2px 2px 2px 2px;
+  padding: 5px 5px 5px 5px;
+  margin: 2px;
+  background-color: gold;
+}
 
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #7472ef);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
 
+/*κλασεις που προσθετονται και αφαιρουνται σε διαφορα elements μεσω JavaScript*/
+.aorato {
+  visibility: hidden;
+}
+.megaloTextSize {
+  font-size: 10rem;
+  color: #ff4c68;
+}
+
+.marioKoumpi {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+}
+
+.patimenoKoumpi {
+  align-items: center;
+  background-image: linear-gradient(144deg, #40f9ff50, #f183a4 50%, #e968c9);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+}
